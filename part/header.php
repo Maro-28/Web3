@@ -1,7 +1,7 @@
 
 <?php
-require_once('helpers/string.php');
-include_once("config/config.php");
+require_once('../helpers/string.php');
+require_once("../config/config.php");
 ?>
 <header id="_top">
 
@@ -12,31 +12,31 @@ include_once("config/config.php");
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="index.php">
-            <img src="imagenes/logo.png" width="102" height="100" alt="Logo teckel's">
+            <img src="../imagenes/logo.png" width="102" height="100" alt="Logo teckel's">
         </a>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="quienessomos.php"><img class="icono"
-                            src="imagenes/documento.png" alt="quienessomos">¿Quiénes somos?</a>
+                    <a class="nav-link" href="index.php?page=qsm&action=qsm"><img class="icono"
+                            src="../imagenes/documento.png" alt="quienessomos">¿Quiénes somos?</a>
                 </li>
 
                 <li class="nav-item active">
-                    <a class="nav-link" href="tienda.php"><img class="icono"
-                            src="imagenes/carro.png" alt="tienda">Tienda</a>
+                    <a class="nav-link" href="index.php?page=tienda&action=tienda&categoria=&subcategoria"><img class="icono"
+                            src="../imagenes/carro.png" alt="tienda">Tienda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contacto.php"><img class="icono"
-                            src="imagenes/carta.png" alt="contacto">Contacto</a>
+                    <a class="nav-link" href="index.php?page=contacto&action=contacto"><img class="icono"
+                            src="../imagenes/carta.png" alt="contacto">Contacto</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="faqs.php"><img class="icono"
-                            src="imagenes/ayudar.png" alt="Preguntas frecuentes">Faq's</a>
+                            src="../imagenes/ayudar.png" alt="Preguntas frecuentes">Faq's</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Admin/login.php"><img class="icono"
-                            src="imagenes/pngegg.png" alt="Preguntas frecuentes">Login</a>
+                            src="../imagenes/pngegg.png" alt="Preguntas frecuentes">Login</a>
                 </li>
             </ul>
 

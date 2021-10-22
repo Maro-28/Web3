@@ -6,7 +6,6 @@ require_once(DIR_BASE."part/header.php");
 require_once(DIR_BASE.'Business/contactBusiness.php');
 
 	if(!empty($_POST['email'])){
-		//var_dump($_POST);
 		sendMail($_POST);
 	}
 
@@ -21,7 +20,7 @@ require_once(DIR_BASE.'Business/contactBusiness.php');
                 
                 <div class="col-md-6 contacto-col-left">
                     <a href="https://www.google.com.ar/maps/@-34.6010516,-58.4287612,15z" target="_blank"><img
-                            src="imagenes/mapa.jpeg" alt="mapa" width="640" height="358"></a>
+                            src="../imagenes/mapa.jpeg" alt="mapa" width="640" height="358"></a>
                 </div>
 
                 <div class="col-md-3">

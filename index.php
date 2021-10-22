@@ -2,8 +2,7 @@
 include_once("config/config.php");
 require_once(DIR_BASE."part/head.php");
 require_once(DIR_BASE."part/header.php");
-
-    ?>
+?>
     <main>
         <section>
             <h1>Teckel's Bakery</h1>

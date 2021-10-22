@@ -1,5 +1,5 @@
 <?php
-require_once("config/config.php");
+require_once("../config/config.php");
 ?>
 <!doctype html>
 <html lang="es">
@@ -13,7 +13,7 @@ require_once("config/config.php");
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="../estilos/estilos.css">
 
     <title>Pasteleria Teckel's</title>
 </head>

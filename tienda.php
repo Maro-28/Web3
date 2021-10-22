@@ -12,7 +12,7 @@ require_once("part/header.php");
             <div class="container-fluid galeriadivcards">
                 <div class="row">
                     <?php
-                    $arrayProductos = json_decode(file_get_contents('array/producto.json'), TRUE);
+                    $arrayProductos = json_decode(file_get_contents(DIR_BASE.'array/producto.json'), TRUE);
                     foreach($arrayProductos as $producto){ 
                         $print = true;
                         if(!empty($_GET['categoria']) AND $print){
@@ -26,7 +26,7 @@ require_once("part/header.php");
                             <ul class="thumbnails">
                                 <li>
                                     <div class="thumbnail">
-                                        <a href="detalleproducto.php?producto=<?php echo $producto['id'] ?>"><img src="<?php echo $producto['imagen'] ?>" alt="" class="img-fluid"></a>
+                                        <a href="detalleproducto.php?producto=<?php echo $producto['id'] ?>"><img src="../<?php echo $producto['imagen'] ?>" alt="" class="img-fluid"></a>
                                         <div class="caption cntr">
                                             <p><strong><?php echo $producto['nombre'] ?></strong></p>
                                             <p class="pi"><?php echo cortar_palabras($producto['descripcion'], 50) ?></p>

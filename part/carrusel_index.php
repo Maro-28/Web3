@@ -12,19 +12,19 @@
             <!-- Las fotos -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="imagenes/torta1.jpeg" alt="torta oreo" width="1072" height="1280">
+                    <img src="../imagenes/torta1.jpeg" alt="torta oreo" width="1072" height="1280">
                 </div>
                 <div class="carousel-item">
-                    <img src="imagenes/torta2.jpeg" alt="surtido tortas" width="1024" height="1280">
+                    <img src="../imagenes/torta2.jpeg" alt="surtido tortas" width="1024" height="1280">
                 </div>
                 <div class="carousel-item">
-                    <img src="imagenes/torta3.jpeg" alt="marquise" width="1024" height="1280">
+                    <img src="../imagenes/torta3.jpeg" alt="marquise" width="1024" height="1280">
                 </div>
                 <div class="carousel-item">
-                    <img src="imagenes/torta4.jpeg" alt="cheesecake" width="1024" height="1280">
+                    <img src="../imagenes/torta4.jpeg" alt="cheesecake" width="1024" height="1280">
                 </div>
                 <div class="carousel-item">
-                    <img src="imagenes/torta5.jpeg" alt="lemon pie" width="1024" height="1280">
+                    <img src="../imagenes/torta5.jpeg" alt="lemon pie" width="1024" height="1280">
                 </div>
             </div>
 
